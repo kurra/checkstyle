@@ -214,6 +214,7 @@
         </module>
         <module name="JavadocMethod">
             <property name="scope" value="public"/>
+            <property name="excludeScope" value="public"/>
             <property name="allowMissingParamTags" value="true"/>
             <property name="allowMissingThrowsTags" value="true"/>
             <property name="allowMissingReturnTag" value="true"/>
